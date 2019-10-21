@@ -32,6 +32,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FO2-xJ-Ccu">
                                         <rect key="frame" x="0.0" y="70.5" width="65" height="30"/>
                                         <state key="normal" title="Set name"/>
+                                        <connections>
+                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Zm-Yf-29E"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
